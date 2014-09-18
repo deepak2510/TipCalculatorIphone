@@ -13,6 +13,7 @@
 		4F407CC619CA86780084B97D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F407CC519CA86780084B97D /* Images.xcassets */; };
 		4F407CC919CA86780084B97D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F407CC719CA86780084B97D /* LaunchScreen.xib */; };
 		4F407CD519CA86780084B97D /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F407CD419CA86780084B97D /* TipCalculatorTests.swift */; };
+		4F407CE319CAA6740084B97D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F407CE219CAA6740084B97D /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4F407CCE19CA86780084B97D /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F407CD319CA86780084B97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F407CD419CA86780084B97D /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		4F407CE219CAA6740084B97D /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = TipCalculator/Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		4F407CB019CA86780084B97D = {
 			isa = PBXGroup;
 			children = (
+				4F407CE219CAA6740084B97D /* Settings.swift */,
 				4F407CBB19CA86780084B97D /* TipCalculator */,
 				4F407CD119CA86780084B97D /* TipCalculatorTests */,
 				4F407CBA19CA86780084B97D /* Products */,
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F407CE319CAA6740084B97D /* Settings.swift in Sources */,
 				4F407CC119CA86780084B97D /* ViewController.swift in Sources */,
 				4F407CBF19CA86780084B97D /* AppDelegate.swift in Sources */,
 			);
