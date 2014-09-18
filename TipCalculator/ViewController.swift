@@ -105,6 +105,13 @@ class ViewController: UIViewController {
         self.recalculate()
     }
     
+    @IBAction func billAmountChanged(sender: UITextField) {
+        var defaults = NSUserDefaults.standardUserDefaults()
+        self.billAmount = self.billField.text.stringByTrimmingCharactersInSet(NSCharacterSet (charactersInString: "$"))._bridgeToObjectiveC().doubleValue
+        defaults.setObject(self.billAmount, forKey: "billAmount")
+        defaults.synchronize()
+        
+    }
     
     
 }
